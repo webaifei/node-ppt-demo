@@ -26,14 +26,15 @@ By zhangaifei {.text-intro}
 - javascript脚本做的做多的事情可能就是表单提交。
 - 2001年，盛大出了一款非常非常火爆的游戏叫《传奇》。
 - 同一年北京申奥成功。
-<slide class="bg-black-blue slide-top">
+{.build.moveIn}
+<slide class="bg-black-blue slide-top" image="./5230.jpg .dark.right">
 #### 蒸汽时代
 - 大概在2005年 AJAX 大火，你的网站没有局部更新太low了，不用刷新页面 就能更新UI 、数据 简直太神奇，时至今日，这项技术仍然是前端重要的基石之一。
 - 2006年jQuery诞生， 开始了它10多年的光辉之路。
 - 2008年Ryan Dahl发布 nodejs。 埋下了时势英雄的伏笔。
 - 移动时代到来
+{.build.moveIn}
 
-!![诺基亚5230](./public/5230.jpg .size-30.alignright)
 
 <slide class="bg-black-blue slide-top">
 #### 工业时代
@@ -41,7 +42,7 @@ By zhangaifei {.text-intro}
 - grunt构建工具受捧，不久就被后来居上的gulp干到在地。
 - 前端UI框架 Angular.js、Bankbone.js 大火，很多其他领域的模式或者解决方案被带到前端。
 - Nodejs开始被逐步应用到企业级应用中。
-
+{.build.moveIn}
 
 <slide class="bg-black-blue slide-top">
 #### 信息时代
@@ -49,6 +50,7 @@ By zhangaifei {.text-intro}
 - React、Vue等前端UI框架迅速爆红，数据驱动、前后端分离等理念得到越来越多青睐。
 - 小程序、跨平台方案层出不穷。
 - Nodejs应用越来越广泛：BFF层、微服务、serverless...
+{.build.moveIn}
 
 <!-- 能干啥 -->
 <slide class="bg-black-blue slide-top">
@@ -59,10 +61,11 @@ By zhangaifei {.text-intro}
 4. 各种web framework：express.js、koa、Hapi、egg.js 等
 5. BF层服务、SSR 、同构应用、serverless...
 6. ...
+{.build.moveIn}
 
 <br>
 > 推动了整个前端技术发展，渗透到前端各个环节当中。 甚至还推动了其他技术的发展
-
+{.build.fadeIn}
 <slide class="bg-black-blue ">
 
 ## Nodejs 是什么？
@@ -136,7 +139,7 @@ By zhangaifei {.text-intro}
 2. 发布时间较短，没有传统后端开发语言成熟：体现在具体场景的解决方案和基础库上。
 3. 因为语言本身的无类型等特点，在编写大型应用程序时候，不如java等强类型语言更加安全、方便、可维护(Tepyscript、Flow等解决方案)
 4. ...
-
+{.build.moveIn}
 
 
 <!-- 几个当前比较流行的词 -->
@@ -146,7 +149,7 @@ By zhangaifei {.text-intro}
 2. 同构应用
 3. BFF
 4. Serverless
-
+{.build.moveIn}
 <!-- 当前在我们业务中落地情况 -->
 <slide class="bg-black-blue slide-top ">
 ### 当前nodejs在我们业务中的落地使用场景
@@ -155,5 +158,6 @@ By zhangaifei {.text-intro}
 3. 前端发布系统 静态文件上传CDN 接口服务
 4. 我爱卡m站 SSR 
 5. 更多进行中...
+{.build.moveIn}
 
 
