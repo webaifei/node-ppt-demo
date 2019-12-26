@@ -1,0 +1,24 @@
+section ul, section ol {
+  margin-top: 20px;
+}
+section li {
+  line-height: 45px;
+  font-size: 22px;
+}
+.pop-bg {
+  position: fixed;
+  top: 0 ;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  display: none;
+  z-index: 1000;
+}
+.pop-bg>img {
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}

@@ -1,15 +1,30 @@
 title: Nodejs
 speaker: zhangaifei
+css:
+  - ./css/zoom.css
+js:
+  - ./js/jquery-1.11.0.min.js
+  - ./js/init.js
 plugins:
     - echarts
+    - mermaid: {theme: forest}
 prismTheme: twilight
+
+
 
 <slide class="bg-black-blue aligncenter" image="./nodejs.png .dark">
 
-# Nodejs  
+# Nodejs 十年
+
+大前端架构中中流砥柱-nodejs {.text-subtitle}
+
+<br>
 
 By zhangaifei {.text-intro}
 
+<slide class="bg-black-blue aligncenter">
+
+!![诺基亚5230](./public/jiagou.png)
 
 <slide class="bg-black-blue aligncenter">
 # 前端开发的变革历程
@@ -17,17 +32,20 @@ By zhangaifei {.text-intro}
 > 前端工程化、体系化、职业化，泛化。
 
 <slide class="bg-black-blue  aligncenter" image="./code.png .dark">
-### 回顾发展历程
+## 回顾发展历程
 
 
 <slide class="bg-black-blue slide-top" image="./shenao.jpeg .dark">
-####  青铜时代
+
+###  冷兵器时代
 - 2000年左右，web页面展示简单的静态图文信息，那个时候还没有FE(前端)，通常是一个叫美工的兼职。
 - javascript脚本做的做多的事情可能就是表单提交。
 - 2001年，盛大出了一款非常非常火爆的游戏叫《传奇》。
 - 同一年北京申奥成功。
-<slide class="bg-black-blue slide-top">
-#### 蒸汽时代
+
+<slide class="bg-black-blue slide-center">
+
+### 蒸汽时代
 - 大概在2005年 AJAX 大火，你的网站没有局部更新太low了，不用刷新页面 就能更新UI 、数据 简直太神奇，时至今日，这项技术仍然是前端重要的基石之一。
 - 2006年jQuery诞生， 开始了它10多年的光辉之路。
 - 2008年Ryan Dahl发布 nodejs。 埋下了时势英雄的伏笔。
@@ -35,8 +53,9 @@ By zhangaifei {.text-intro}
 
 !![诺基亚5230](./public/5230.jpg .size-30.alignright)
 
-<slide class="bg-black-blue slide-top">
-#### 工业时代
+<slide class="bg-black-blue slide-center">
+
+### 电气时代
 - 这个时期，seajs、requirejs前端模块化开始出现，终于有了简单包管理工具bower。
 - grunt构建工具受捧，不久就被后来居上的gulp干到在地。
 - 前端UI框架 Angular.js、Bankbone.js 大火，很多其他领域的模式或者解决方案被带到前端。
@@ -44,7 +63,8 @@ By zhangaifei {.text-intro}
 
 
 <slide class="bg-black-blue slide-top">
-#### 信息时代
+
+### 信息时代
 - 2014年，互联网+的概念大行其道。
 - React、Vue等前端UI框架迅速爆红，数据驱动、前后端分离等理念得到越来越多青睐。
 - 小程序、跨平台方案层出不穷。
@@ -52,6 +72,7 @@ By zhangaifei {.text-intro}
 
 <!-- 能干啥 -->
 <slide class="bg-black-blue slide-top">
+
 ### 前端发展进程中 干了啥
 1. 提供了基于npm的依赖包管理机制
 2. 各种构建工具grunt、gulp、webpack、rollup... 都是依赖nodejs实现
@@ -120,6 +141,7 @@ By zhangaifei {.text-intro}
 
 <!-- 和传统的多线程开发对比 -->
 <slide class="bg-black-blue slide-top ">
+
 ### nodejs和传统的多线程编程对比
 
 :::flexblock {.clients}
@@ -130,6 +152,7 @@ By zhangaifei {.text-intro}
 
 <!-- 缺点 -->
 <slide class="bg-black-blue slide-top ">
+
 ### nodejs的缺点
 
 1. 不适用于计算密集型的业务场景
@@ -141,6 +164,7 @@ By zhangaifei {.text-intro}
 
 <!-- 几个当前比较流行的词 -->
 <slide class="bg-black-blue slide-top ">
+
 ### 讨论几个比较通用的应用场景
 1. SSR
 2. 同构应用
@@ -149,6 +173,7 @@ By zhangaifei {.text-intro}
 
 <!-- 当前在我们业务中落地情况 -->
 <slide class="bg-black-blue slide-top ">
+
 ### 当前nodejs在我们业务中的落地使用场景
 1. 运营活动搭建系统
 2. 前端脚手架、host等小工具
