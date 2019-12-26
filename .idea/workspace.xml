@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="71ef0299-612d-44d0-9e39-29f850e4f5a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dist/css/chunk-vendors.0d0be0e7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/chunk-vendors.10894038.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/chunk-vendors.e8f795d3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/chapter01.a6e4b5b0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/chunk-vendors.d764234d.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/chapter01.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/chapter01.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VVea0bT6SAWSzCo7jS1meGqEEW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71ef0299-612d-44d0-9e39-29f850e4f5a1" name="Default Changelist" comment="" />
+      <created>1577342748731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577342748731</updated>
+      <workItem from="1577342751317" duration="141000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="144" y="111" key="MergeDialog" timestamp="1577342890024">
+      <screen x="0" y="0" width="1440" height="820" />
+    </state>
+    <state x="144" y="111" key="MergeDialog/0.0.1440.820@0.0.1440.820" timestamp="1577342890024" />
+    <state x="433" y="174" key="MultipleFileMergeDialog" timestamp="1577342890143">
+      <screen x="0" y="0" width="1440" height="820" />
+    </state>
+    <state x="433" y="174" key="MultipleFileMergeDialog/0.0.1440.820@0.0.1440.820" timestamp="1577342890143" />
+  </component>
+</project>
